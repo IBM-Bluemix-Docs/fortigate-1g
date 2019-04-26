@@ -32,3 +32,5 @@ The FortiGate Security Appliance (FSA) 1Gbps has the following known limitations
 * A FortiGate Security Appliance cannot be deployed on a VLAN that is currently associated with a Network Gateway, Hardware Firewall, or another FortiGate Security Appliance.
 
 * The FortiGate Security Appliance is associated with a single public customer VLAN (the "inside" VLAN) and cannot access the private network.
+
+* Set Rules Bypass does not work on FSA 1Gbps. Set Rules Bypass applies to Hardware Firewall (Standard and Dedicated).
